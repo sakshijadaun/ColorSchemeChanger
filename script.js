@@ -26,26 +26,26 @@ const buttons = document.querySelectorAll('.btn');
 
 
 
-// buttons.forEach( (button) => {
-//     button.addEventListener('click', (e) => {
-//         // console.log(e.target.className);
+buttons.forEach( (button) => {
+    button.addEventListener('click', (e) => {
+        // console.log(e.target.className);
 
-//         body.classList.remove('b1', 'b2', 'b3', 'b4');
+        body.classList.remove('b1', 'b2', 'b3', 'b4');
         
-//         if(e.target.id === 'btn1'){
-//             body.classList.add('b1');
-//         }
-//         if(e.target.id === 'btn2'){
-//             body.classList.add('b2');
-//         }
-//         if(e.target.id === 'btn3'){
-//             body.classList.add('b3');
-//         }
-//         if(e.target.id === 'btn4'){
-//             body.classList.add('b4');
-//         }
-//     })
-// })
+        if(e.target.id === 'btn1'){
+            body.classList.add('b1');
+        }
+        if(e.target.id === 'btn2'){
+            body.classList.add('b2');
+        }
+        if(e.target.id === 'btn3'){
+            body.classList.add('b3');
+        }
+        if(e.target.id === 'btn4'){
+            body.classList.add('b4');
+        }
+    })
+})
 
 //Note-> But in this case classList does not remove existing classes so we have to do manually
          //so we added this line body.classList.remove('b1', 'b2','b3','b4'); It removes all the classes before clicking on the button.

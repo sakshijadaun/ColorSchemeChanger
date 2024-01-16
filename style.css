@@ -15,11 +15,33 @@
     margin: auto;
 }
 #heading{
-    color: rgba(211,311,411,0.3);
+    color: rgb(23, 2, 2);
     padding: 1.2rem;
     font-size: 3rem;
 }
 .btn{
     width: 100px;
     height: 70px;
+}
+p{
+    color: rgb(23, 2, 2);
+    font-size: 2rem;
+    font-weight: bold;  
+}
+#blue{
+    background-color: rgb(135, 7, 255);
+    border-radius: 10px;
+ 
+}
+#green{
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+#aqua{
+    background-color: rgb(9, 255, 255);
+    border-radius: 10px;
+}
+#red{
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
 }

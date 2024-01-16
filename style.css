@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 19, 58);
+    color: #fff;
+}
+#parent{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: auto;
+}
+#heading{
+    color: rgba(211,311,411,0.3);
+    padding: 1.2rem;
+    font-size: 3rem;
+}
+.btn{
+    width: 100px;
+    height: 70px;
+}

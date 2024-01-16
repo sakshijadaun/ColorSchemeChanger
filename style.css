@@ -33,7 +33,7 @@ p{
     font-weight: bold;  
     margin-top: 3rem;
 }
-/* .b1{
+.b1{
     background-color: rgb(135, 7, 255);
     border-radius: 10px;
 }
@@ -64,4 +64,4 @@ p{
 .btn[data-color="red"]{
         background-color: rgb(247, 26, 49);
     border-radius: 10px;
-} */
+}

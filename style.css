@@ -2,46 +2,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(255, 19, 58);
-    color: #fff;
+     
 }
-#parent{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5rem;
-    margin: auto;
-}
+ body{
+       background-color: white; 
+       display: flex;
+       width: 40%;
+       margin: auto;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: nowrap;
+    
+} 
+
+
 #heading{
     color: rgb(23, 2, 2);
-    padding: 1.2rem;
+    padding: 1.2rem ;
     font-size: 3rem;
 }
 .btn{
     width: 100px;
     height: 70px;
+    cursor: pointer;
+    margin-top: 3rem;
 }
 p{
     color: rgb(23, 2, 2);
     font-size: 2rem;
     font-weight: bold;  
+    margin-top: 3rem;
 }
-#blue{
+/* .b1{
     background-color: rgb(135, 7, 255);
     border-radius: 10px;
- 
 }
-#green{
+.b2{
     background-color: greenyellow;
     border-radius: 10px;
 }
-#aqua{
-    background-color: rgb(9, 255, 255);
+.b3{
+    background-color: rgb(9,255,255);
     border-radius: 10px;
 }
-#red{
-    background-color: rgb(255, 0, 0);
+.b4{
+    background-color: rgb(247, 26, 49);
     border-radius: 10px;
 }
+.btn[data-color="purple"]{
+     background-color: rgb(135, 7, 255);
+    border-radius: 10px;
+}
+.btn[data-color="greenyellow"]{
+      background-color: greenyellow;
+    border-radius: 10px;
+}
+.btn[data-color="aqua"]{
+        background-color: rgb(9,255,255);
+    border-radius: 10px;
+}
+.btn[data-color="red"]{
+        background-color: rgb(247, 26, 49);
+    border-radius: 10px;
+} */
